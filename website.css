@@ -1,0 +1,301 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+body > header {
+    background-image: url("https://images.unsplash.com/photo-1588260692987-01360da8185b?q=80&w=2306&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    background-color: #392317;
+}
+
+#header-flex {
+    align-items: center;
+}
+
+#title {
+    color: #54392C;
+    margin: 0px;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Homemade Apple", Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    
+}
+
+#nav-ul {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    justify-items: center;
+}
+
+body > header > div > nav > ul {
+    list-style: none;
+    padding: 10px 1px 50px;
+} 
+
+body > header > div > nav a {
+    text-decoration: none;
+    color: #54392C;
+    padding: 10px;
+
+}
+
+#selected-nav {
+    border: 1px solid #54392C;
+    font-weight: bold;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#timeline {
+    margin: 0px;
+    border-right: 0.5px solid #CEBBAE;
+}
+
+#timeline > h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 50px 0px 20px;
+    margin: 0px;
+}
+
+#timeline-ul {
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 5px;
+    margin-top: 0px;
+}
+
+#timeline > nav > ul > li {
+    padding: 10px;
+}
+
+#timeline > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+
+#selected-timeline {
+    font-weight: bold;
+}
+
+#page-headers {
+    text-align: center;
+}
+
+#signifier {
+    font-weight: normal;
+    font-size: larger;
+    padding: 0px 0px 0px;
+    text-align: center;
+    margin: 40px 485px 0px;
+    background-color: lightgrey;
+    color: grey;
+    font-size: 16px;
+}
+
+#page-title {
+    font-size: 40px;
+    margin-top: 00px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+#years {
+    font-weight: lighter;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+#headers-together {
+    background-image: url("https://www.nationalgallery.org.uk/media/8100/monet-water-lily-pond-ng4240-c-lilies-wide_20080808143818.jpg");
+    background-size: cover;
+    background-color: #316942;
+    color: white;
+    margin: 0px 150px 0px;
+}
+
+#start-images {
+    display: flex;
+}
+
+#main-image-1 {
+    padding-left: 140px;
+    padding-right: 10px;
+}
+
+#citation-1 {
+    padding-left: 150px;
+}
+
+#main-content{
+    margin: 0px;
+}
+
+#main-content > section {
+    width: 80%;
+    padding-left: 0px;
+}
+
+.quote-citation {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 40px;
+    text-align: right;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-right: 150px;
+    padding-left: 200px;
+    font-size: medium;
+    padding-top: 0px;
+}
+
+.citation {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    margin-top: 0%;
+    padding-top: 20px;
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+main > h3 {
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: x-large;
+}
+
+#first-para {
+    line-height: 2.5 ;
+    padding: 0px 150px 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+#second-para {
+    line-height: 2 ;
+    padding: 50px 60px 0px;
+}
+
+.firstcharacter {
+    color: #8BA778;
+    float: left;
+    font-family: Georgia;
+    font-size: 85px;
+    line-height: 60px;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+main > p {
+    line-height: 2 ;
+    padding: 20px 60px 0px;
+}
+
+blockquote {
+    line-height: 2;
+    color: gray;
+    padding: 0px 150px 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#image-flex {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.grid-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    height: 200px;
+    width: auto;
+}
+
+#source-header {
+    color: grey;
+    padding-top: 50px;
+}
+
+.source {
+    line-height: 1;
+    font-size: medium;
+    color: grey;
+}
+
+#last-source {
+    margin-bottom: 50px;
+}
+
+body > footer {
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    background-color: #E2D6CE;
+}
+
+body > footer > h2 {
+    margin: 0px;
+    font-family: "Homemade Apple", Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 10px 20px 10px;
+    text-align: center;
+    color: #54392C;
+}
+
+footer > section {
+    width: 60%;
+    padding: 30px 0px 30px;
+    border-left: 0.5px solid #54392C;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+#footer-ul > li {
+    padding: 30px 0px 30px;
+}
+
+#footer-ul a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin: 30px 0px 30px;
+}
+
+
+body > footer > h3 {
+    margin: 0px;
+}
